@@ -28,7 +28,7 @@ public class Vertex extends Agent{
 		this.cost = 0;
 		this.marked = false;
 		this.edge = new HashMap<Direction,Vertex>();
-		this.comparator = new MinVertexComparator();
+		this.comparator = new VertexComparator();
 	}
 	
 	// get/set method
